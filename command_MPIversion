@@ -1,2 +1,3 @@
+# For Linux environment
 mpif90 trapp.f
 mpirun -np 8 ./a.out
