@@ -1,3 +1,6 @@
 # For Linux environment
 mpif90 trapp.f
 mpirun -np 8 ./a.out
+# For Windows environment
+mpiifort trapp.f
+mpiexec -n 8 trapp.exe
